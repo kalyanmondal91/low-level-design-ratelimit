@@ -9,13 +9,13 @@ import java.util.Map;
 import java.util.Queue;
 
 @Service
-public class BucketStrategy implements LimitStrategy {
+public class SlidingWindowStrategy implements LimitStrategy {
 
     private final long TIME_LIMIT = 100;
     private final long MAX_HITS = 5;
     private final Map<String, Queue<Long>> bucket;
 
-    public BucketStrategy() {
+    public SlidingWindowStrategy() {
         this.bucket = new HashMap<>();
     }
 

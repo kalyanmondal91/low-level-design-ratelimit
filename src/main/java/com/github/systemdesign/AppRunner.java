@@ -21,7 +21,6 @@ public class AppRunner implements CommandLineRunner {
         rateLimitService.request("A", 1050L);
         rateLimitService.request("A", 1051L);
         rateLimitService.request("A", 1099L);
-        rateLimitService.request("A", 1099L);
         rateLimitService.request("A", 1100L);
         rateLimitService.request("A", 1101L);
     }
