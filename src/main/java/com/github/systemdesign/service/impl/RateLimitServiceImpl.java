@@ -1,7 +1,7 @@
 package com.github.systemdesign.service.impl;
 
 import com.github.systemdesign.service.RateLimitService;
-import com.github.systemdesign.strategy.BucketStrategy;
+import com.github.systemdesign.strategy.impl.BucketStrategy;
 import com.github.systemdesign.strategy.LimitStrategy;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

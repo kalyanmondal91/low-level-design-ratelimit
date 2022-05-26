@@ -1,5 +1,6 @@
-package com.github.systemdesign.strategy;
+package com.github.systemdesign.strategy.impl;
 
+import com.github.systemdesign.strategy.LimitStrategy;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
